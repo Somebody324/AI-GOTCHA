@@ -1,0 +1,5 @@
+# Settings for Backend (on Cloud Run)
+# See https://firebase.google.com/docs/hosting/cloud-run
+runConfig:
+  minInstances: 0
+  maxInstances: 8   # You can set this to any number <= 10
